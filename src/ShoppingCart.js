@@ -6,6 +6,7 @@ function ShoppingCart(){
         <div>
             <h2>Shopping Cart</h2>
             <div className="cart-item"></div>
+            <CartItem name="dog food" price="40" />
         </div>
     );
 }
