@@ -7,8 +7,8 @@ import { CartProvider } from "./CartItem";
 
 function App() {
   return (
-    <CartProvider>
       <Router>
+        <CartProvider>
         <div className="App">
           <Navbar bg="light" expand="lg">
             <Container>
@@ -27,8 +27,8 @@ function App() {
             <Route path="/cart" element={<ShoppingCart />} />
           </Routes>
         </div>
+        </CartProvider>
       </Router>
-    </CartProvider>
   );
 }
 
